@@ -45,9 +45,9 @@ class Tomaco inherits Verdura{
 	var property position
   override method image() {
 	return if (estado==0) {
-		"tomaco.png"
+		"tomaco_baby.png"
 	}
-     else "corn_adult.png"
+     else "tomaco.png"
 	
 	} 
 
