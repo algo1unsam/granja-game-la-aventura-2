@@ -8,10 +8,15 @@ program farmville {
 	game.height(10)
 	game.width(10)
 	game.ground("ground.png")
+	keyboard.m().onPressDo({ hector.plantarMaiz()})
+	keyboard.t().onPressDo({ hector.plantarTrigo()})
+	keyboard.o().onPressDo({ hector.plantarTomaco()})
+	keyboard.r().onPressDo({ hector.regar()})
+
 
 	//  VISUALES
  	game.addVisualCharacter(hector)
- //	game.addVisualIn(new Maiz(), game.at(1, 1))
+ 	//game.addVisualIn(new Maiz(), game.at(1, 1))
  	
  	//  COMIENZA
 	game.start()
